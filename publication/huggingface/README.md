@@ -56,8 +56,8 @@ optimality, behavioral identity, or cross-platform generalization.
 ## Links
 
 - Paper and archival record: `https://doi.org/10.5281/zenodo.21860461`
-- Lightweight source repository: `https://github.com/happy-HHH/gemma4-mtp-quality-study`
-- Public reproducibility archive: `https://github.com/happy-HHH/gemma4-mtp-quality-study/releases/download/v1.0.0/gemma4-mtp-quality-study-PUBLIC_REPRODUCIBILITY_ARCHIVE-v1.0.0.zip`
+- Lightweight source repository: `https://github.com/mobius-style/gemma4-mtp-quality-study`
+- Public reproducibility archive: `https://github.com/mobius-style/gemma4-mtp-quality-study/releases/download/v1.0.0/gemma4-mtp-quality-study-PUBLIC_REPRODUCIBILITY_ARCHIVE-v1.0.0.zip`
 
 ## Licensing and attribution
 

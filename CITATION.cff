@@ -14,7 +14,7 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21860461"
     description: Zenodo archival record
-repository-code: "https://github.com/happy-HHH/gemma4-mtp-quality-study"
+repository-code: "https://github.com/mobius-style/gemma4-mtp-quality-study"
 url: "https://doi.org/10.5281/zenodo.21860461"
 abstract: >-
   A paired quality-throughput study of QAT Q4_0 Gemma 4 12B and 26B-A4B

@@ -16,7 +16,7 @@ not show degradation beyond that pilot margin on this stack, but it was not
 behaviorally identical and N=6 is not claimed as a universal optimum.
 
 Paper and archive: https://doi.org/10.5281/zenodo.21860461  
-Source and release asset: https://github.com/happy-HHH/gemma4-mtp-quality-study/releases/tag/v1.0.0  
+Source and release asset: https://github.com/mobius-style/gemma4-mtp-quality-study/releases/tag/v1.0.0
 Sanitized processed Dataset: https://huggingface.co/datasets/moebiusT7/gemma4-mtp-quality-study
 
 #Gemma #llamacpp #LLMInference #SpeculativeDecoding #ReproducibleResearch

@@ -28,7 +28,7 @@ processed measurements, scripts, pinned sources, figures, tables, and audit
 records.
 
 - Paper and archive: https://doi.org/10.5281/zenodo.21860461
-- Source and public release asset: https://github.com/happy-HHH/gemma4-mtp-quality-study/releases/tag/v1.0.0
+- Source and public release asset: https://github.com/mobius-style/gemma4-mtp-quality-study/releases/tag/v1.0.0
 - Sanitized processed Dataset: https://huggingface.co/datasets/moebiusT7/gemma4-mtp-quality-study
 
 Author: Taiko Toeda, Independent Researcher  

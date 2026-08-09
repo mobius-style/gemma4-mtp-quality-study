@@ -47,7 +47,7 @@ hashes, processed measurements, source revisions, scripts, figures, tables,
 licenses, and validation records.
 
 - Paper and archival record: https://doi.org/10.5281/zenodo.21860461
-- GitHub source and release archive: https://github.com/happy-HHH/gemma4-mtp-quality-study/releases/tag/v1.0.0
+- GitHub source and release archive: https://github.com/mobius-style/gemma4-mtp-quality-study/releases/tag/v1.0.0
 - Hugging Face processed Dataset: https://huggingface.co/datasets/moebiusT7/gemma4-mtp-quality-study
 
 Generative AI assisted scripting, research engineering, analysis,
