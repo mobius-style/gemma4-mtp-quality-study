@@ -1,0 +1,10 @@
+| model_short | condition | accuracy | length_truncations |
+| --- | --- | --- | --- |
+| 12b | off_a | 0.800 | 6 |
+| 12b | off_b | 0.800 | 6 |
+| 12b | n6 | 0.792 | 9 |
+| 12b | n3 | 0.796 | 7 |
+| 26b | off_a | 0.806 | 4 |
+| 26b | off_b | 0.806 | 4 |
+| 26b | n6 | 0.798 | 4 |
+| 26b | n4 | 0.798 | 4 |

@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "models": {
+    "12b": {
+      "valid_rows": 72,
+      "errors": []
+    },
+    "26b": {
+      "valid_rows": 72,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "option_order_summary": [
+    {
+      "model_short": "12b",
+      "condition": "off",
+      "n": 20,
+      "perturbed_accuracy": 0.45,
+      "semantic_option_stability_vs_original_order": 0.65,
+      "exact_mtp_vs_off_rate": null
+    },
+    {
+      "model_short": "12b",
+      "condition": "n6",
+      "n": 20,
+      "perturbed_accuracy": 0.4,
+      "semantic_option_stability_vs_original_order": 0.6,
+      "exact_mtp_vs_off_rate": 0.95
+    },
+    {
+      "model_short": "26b",
+      "condition": "off",
+      "n": 20,
+      "perturbed_accuracy": 0.65,
+      "semantic_option_stability_vs_original_order": 0.65,
+      "exact_mtp_vs_off_rate": null
+    },
+    {
+      "model_short": "26b",
+      "condition": "n6",
+      "n": 20,
+      "perturbed_accuracy": 0.65,
+      "semantic_option_stability_vs_original_order": 0.65,
+      "exact_mtp_vs_off_rate": 1.0
+    }
+  ],
+  "internal_exact_prompt_duplicates": 0,
+  "cross_item_shared_13gram_count": 4,
+  "cross_item_shared_13gram_examples": {
+    "word for word without change do not say any words or characters before": [
+      "ifeval-008",
+      "ifeval-027"
+    ],
+    "for word without change do not say any words or characters before repeating": [
+      "ifeval-008",
+      "ifeval-027"
+    ],
+    "word without change do not say any words or characters before repeating the": [
+      "ifeval-008",
+      "ifeval-027"
+    ],
+    "without change do not say any words or characters before repeating the request": [
+      "ifeval-008",
+      "ifeval-027"
+    ]
+  },
+  "gsm_reference_number_already_in_prompt": [
+    "gsm8k-024",
+    "gsm8k-033",
+    "gsm8k-037"
+  ],
+  "dataset_canary_field_available": false,
+  "training_corpus_contamination_status": "unresolved; no training-corpus access or benchmark canaries"
+}

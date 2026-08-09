@@ -1,0 +1,13 @@
+Gemma 4 MTP Quality–Throughput Study
+Copyright 2026 Taiko Toeda
+
+This independent empirical study is not affiliated with or endorsed by Google,
+NVIDIA, Hugging Face, Zenodo, Unsloth, Ollama, or the llama.cpp project.
+
+The study references Gemma, llama.cpp, GSM8K, MMLU-Pro, IFEval, and MBPP for
+identification, reproducibility, and scholarly attribution. Upstream names and
+trademarks belong to their respective owners.
+
+No model weights, MTP drafter weights, verbatim benchmark items, or vendored
+third-party evaluation source are redistributed in the public package.
+

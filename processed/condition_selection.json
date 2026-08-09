@@ -1,0 +1,22 @@
+{
+  "12b": {
+    "maximum_throughput": "n6",
+    "strict_conservative": null,
+    "exploratory_low_variance_fallback": "n3",
+    "quality_conditions": [
+      "n6",
+      "n3"
+    ],
+    "selection_status": "protocol fallback: no setting met both 95%-of-max and CV<=10%"
+  },
+  "26b": {
+    "maximum_throughput": "n6",
+    "strict_conservative": null,
+    "exploratory_low_variance_fallback": "n4",
+    "quality_conditions": [
+      "n6",
+      "n4"
+    ],
+    "selection_status": "protocol fallback: no setting met both 95%-of-max and CV<=10%"
+  }
+}

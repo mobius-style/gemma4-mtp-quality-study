@@ -1,0 +1,5 @@
+model_short,n_max,aggregate_decode_tok_s,share_of_observed_maximum,median_paired_speedup,cv_decode_tok_s,acceptance_rate,objective_quality_200_items_evaluated,strict_conservative_rule_eligible,interpretation
+12b,4,221.6943297056546,0.9792439646028054,2.454942290683509,0.1080487977725907,0.675424413904608,False,False,performance-only plateau candidate; 200-item quality not evaluated
+12b,6,226.39335826346075,1.0,2.497091922860504,0.1548879292549748,0.5768605784855378,True,False,observed maximum; quality evaluated
+12b,8,220.67318923233603,0.9747334945026612,2.438781754970768,0.1131230522816123,0.4878114117331905,False,False,performance-only plateau candidate; 200-item quality not evaluated
+12b,12,223.3019240697861,0.9863448547369617,2.4927057659183696,0.1243883629503827,0.3916562889165629,False,False,performance-only plateau candidate; 200-item quality not evaluated

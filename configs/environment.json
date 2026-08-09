@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-08-09T14:37:29+09:00",
+  "host": {
+    "hostname": "<LOCAL_HOSTNAME_REDACTED>",
+    "os": "Ubuntu 24.04.1 LTS",
+    "kernel": "6.17.0-40-generic",
+    "cpu": "11th Gen Intel Core i7-11700",
+    "physical_cores": 8,
+    "logical_cpus": 16,
+    "ram_gib": 125,
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_memory_mib_reported_by_llama_cpp": 15841,
+    "nvidia_kernel_module": "595.71.05",
+    "nvml_userspace": "595.84",
+    "nvml_status": "unavailable: driver/library version mismatch"
+  },
+  "software": {
+    "llama_cpp_commit": "7ba604f1cb61cd14898138e9abc0b4ff2601f180",
+    "llama_server": "<LLAMA_CPP_ROOT>/build-cuda13-sm120/bin/llama-server",
+    "llama_server_sha256": "1590bb2b1f9f704ed204fec890b2bb8cfaceb93bc2ca08dc3f70ef8053a0824a",
+    "build_type": "Release",
+    "compiler": "GCC 13.3.0",
+    "cmake": "3.28.3",
+    "cuda_architecture": 120,
+    "ggml_cuda": true,
+    "ggml_cuda_fa": true,
+    "ggml_native": true,
+    "runtime_cudart": "13.0.48",
+    "runtime_cublas": "13.0.0.19",
+    "python": "3.10.14"
+  },
+  "models": {
+    "gemma4_12b": {
+      "main_path": "<SUPPLY_LOCAL_TARGET_GGUF_MATCHING_SHA256>",
+      "main_sha256": "faff1a63667fac17ac5e777f47114688fcefea96e220e211aaa8d62c2c4561f1",
+      "main_bytes": 6975877728,
+      "draft_path": "<SUPPLY_LOCAL_DRAFTER_GGUF_MATCHING_SHA256>",
+      "draft_sha256": "fcb35dea42c71333db904cee11baac525c9ef872818ee3753f6cb156f3c6f4f6",
+      "draft_bytes": 253708800
+    },
+    "gemma4_26b_a4b": {
+      "main_path": "<SUPPLY_LOCAL_TARGET_GGUF_MATCHING_SHA256>",
+      "main_sha256": "4c856523d61d77922dbc0b26753a6bf6208e5d69d80db0c04dcd776832d054c5",
+      "main_bytes": 14439361440,
+      "draft_path": "<SUPPLY_LOCAL_DRAFTER_GGUF_MATCHING_SHA256>",
+      "draft_sha256": "7272d97595f0d4c74bd7b623492b7dbdaafd8b7c72f329a8270ba4eca68f768a",
+      "draft_bytes": 251939328
+    }
+  },
+  "execution": {
+    "ollama_inference_used": false,
+    "concurrency": 1,
+    "context_tokens": 8192,
+    "gpu_layer_mode": "all requested; placement verified from llama.cpp startup logs",
+    "telemetry_limitation": "NVML was unavailable, so clock, power, utilization, and temperature series could not be captured."
+  }
+}

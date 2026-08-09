@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this study or its processed results, please cite this record."
+title: "Multi-Token Prediction on a Consumer GPU: A Quality–Throughput Study of Quantized Gemma 4"
+type: article
+authors:
+  - family-names: Toeda
+    given-names: Taiko
+    orcid: "https://orcid.org/0009-0001-7267-0201"
+    affiliation: Independent Researcher
+version: 1.0.0
+date-released: 2026-08-09
+license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21860461"
+    description: Zenodo archival record
+repository-code: "https://github.com/happy-HHH/gemma4-mtp-quality-study"
+url: "https://doi.org/10.5281/zenodo.21860461"
+abstract: >-
+  A paired quality-throughput study of QAT Q4_0 Gemma 4 12B and 26B-A4B
+  multi-token prediction on one RTX 5070 Ti using a pinned CUDA llama.cpp
+  runtime.
+

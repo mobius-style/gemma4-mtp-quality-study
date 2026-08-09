@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "models": {
+    "12b": {
+      "errors": [],
+      "valid_rows": 800,
+      "baseline_byte_equal": 200,
+      "baseline_total": 200,
+      "baseline_unstable_items": []
+    },
+    "26b": {
+      "errors": [],
+      "valid_rows": 800,
+      "baseline_byte_equal": 199,
+      "baseline_total": 200,
+      "baseline_unstable_items": [
+        "mmlu_pro-005"
+      ]
+    }
+  }
+}

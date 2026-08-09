@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "date": "2026-08-09",
+  "author": "Taiko Toeda",
+  "orcid": "0009-0001-7267-0201",
+  "doi": "10.5281/zenodo.21860461",
+  "internal_archive_sha256": "a8ad3316f7b346ad4ed71d236f90b786bcce88b9e892e576716965f442d06dc8",
+  "public_package_is_byte_identical_to_internal": false,
+  "scientific_results_recalculated_during_sanitization": false,
+  "public_sanitization": [
+    "excluded datasets/source, prompts, raw, logs, vendor, and private issue draft",
+    "removed log from processed/performance_runs.csv",
+    "removed score_detail from processed/quality_item_scores.csv",
+    "redacted hostname and local executable/model paths in configs/environment.json",
+    "converted local launcher paths to STUDY_ROOT and LLAMA_CPP_ROOT inputs"
+  ]
+}

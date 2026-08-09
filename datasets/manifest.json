@@ -1,0 +1,58 @@
+{
+  "sampling_seed": 20260809,
+  "counts": {
+    "gsm8k": 60,
+    "mmlu_pro": 60,
+    "ifeval": 40,
+    "mbpp": 40
+  },
+  "sample_sha256": "797043b2642a926910a1baad228e662b4dee36372b33bef839dbc7770193a3c2",
+  "sources": [
+    {
+      "filename": "gsm8k_test.jsonl",
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl",
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+      "bytes": 749738
+    },
+    {
+      "filename": "mmlu_pro_test.parquet",
+      "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/b189ec765aa7ed75c8acfea42df31fdae71f97be/data/test-00000-of-00001.parquet?download=true",
+      "sha256": "0e24a191921c2f453518a537a8b2117bd137e7714d4ef1565e9ba06c1ecb9ad8",
+      "bytes": 4144185
+    },
+    {
+      "filename": "ifeval_input_data.jsonl",
+      "url": "https://raw.githubusercontent.com/google-research/google-research/015539128d9a7dbe14b5f5308a198a15da808949/instruction_following_eval/data/input_data.jsonl",
+      "sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+      "bytes": 207111
+    },
+    {
+      "filename": "sanitized-mbpp.json",
+      "url": "https://raw.githubusercontent.com/google-research/google-research/015539128d9a7dbe14b5f5308a198a15da808949/mbpp/sanitized-mbpp.json",
+      "sha256": "ca95deaa9a01ef0a6f439f88bcf0dd3db3563d22f22aad6cae04ebb9a8d8c8e9",
+      "bytes": 255053
+    }
+  ],
+  "vendor": [
+    {
+      "filename": "evaluation_lib.py",
+      "revision": "015539128d9a7dbe14b5f5308a198a15da808949",
+      "sha256": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c"
+    },
+    {
+      "filename": "instructions.py",
+      "revision": "015539128d9a7dbe14b5f5308a198a15da808949",
+      "sha256": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf"
+    },
+    {
+      "filename": "instructions_registry.py",
+      "revision": "015539128d9a7dbe14b5f5308a198a15da808949",
+      "sha256": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc"
+    },
+    {
+      "filename": "instructions_util.py",
+      "revision": "015539128d9a7dbe14b5f5308a198a15da808949",
+      "sha256": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b"
+    }
+  ]
+}

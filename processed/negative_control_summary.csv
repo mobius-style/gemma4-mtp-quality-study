@@ -1,0 +1,5 @@
+model_short,condition,n,perturbed_accuracy,semantic_option_stability_vs_original_order,exact_mtp_vs_off_rate
+12b,off,20,0.45,0.65,
+12b,n6,20,0.4,0.6,0.95
+26b,off,20,0.65,0.65,
+26b,n6,20,0.65,0.65,1.0

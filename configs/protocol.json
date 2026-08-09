@@ -1,0 +1,43 @@
+{
+  "protocol_version": 1,
+  "status": "frozen_before_new_model_outputs",
+  "date_local": "2026-08-09",
+  "timezone": "Asia/Tokyo",
+  "models": ["gemma4-12b-it-qat-q4_0", "gemma4-26b-a4b-it-qat-q4_0"],
+  "performance": {
+    "n_max": [0, 1, 2, 3, 4, 6, 8, 12, 16],
+    "p_min": 0.0,
+    "target_input_tokens": [256, 1024, 4000],
+    "prompts_per_length": 3,
+    "requested_output_tokens": 256,
+    "ignore_eos": true,
+    "randomization_seed": 20260809
+  },
+  "quality": {
+    "total_items": 200,
+    "gsm8k": 60,
+    "mmlu_pro": 60,
+    "ifeval": 40,
+    "mbpp": 40,
+    "sampling_seed": 20260809,
+    "noninferiority_margin_macro_accuracy": -0.05,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20260809,
+    "multiple_testing": "Holm within model"
+  },
+  "runtime": {
+    "context": 8192,
+    "parallel": 1,
+    "flash_attention": true,
+    "target_kv": "f16/f16",
+    "draft_kv": "f16/f16",
+    "batch": 512,
+    "ubatch": 512,
+    "temperature": 0.0,
+    "top_k": 1,
+    "threads": 8,
+    "fit": "off",
+    "target_gpu_layers": 999,
+    "draft_gpu_layers": 999
+  }
+}
